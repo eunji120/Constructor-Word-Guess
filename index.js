@@ -6,7 +6,7 @@ var inquirer = require("inquirer");
 var letterArray = "abcdefghijklmnopqrstuvwxyz";
 
 //list of words options
-var torontoStreets = ["bay", "yonge", "dundas", "adelaide", "york", "bloor", "spadina"];
+var torontoStreets = ["bay", "yonge", "dundas", "adelaide", "york", "bloor", "spadina", "parliament", "jarvis", "queen", "king", "eglington", "beverley", "wellesley", "davenport", "dupont", "avenue", "bathurst"];
 
 //generate a random answer
 var randomIndex = Math.floor(Math.random() * torontoStreets.length);
