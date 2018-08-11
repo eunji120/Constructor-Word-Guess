@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/eunji120/Constructor-Word-Guess/issues"
   },
-  "homepage": "https://github.com/eunji120/Constructor-Word-Guess#readme"
+  "homepage": "https://github.com/eunji120/Constructor-Word-Guess#readme",
+  "dependencies": {
+    "inquirer": "^6.1.0"
+  }
 }

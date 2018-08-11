@@ -71,7 +71,7 @@ function knowledge() {
 
                     //checking if guess is correct
                     computerWord.objArray.forEach(wordCheck);
-                    if (wordCheckArray.join(' ') === wordComplete.join('')) {
+                    if (wordCheckArray.join('') === wordComplete.join('')) {
 
                         console.log("\nIncorrect\n");
                         incorrectLetters.push(input.userInput);
@@ -111,6 +111,10 @@ function knowledge() {
     }
 
     function completeCheck(key) {
+        wordComplete.push(key.guessed);
+        }
+
+    function restartGame() {
         inquirer.prompt([
             {
                 type: "list",
@@ -132,8 +136,9 @@ function knowledge() {
                 return
             }
         })
-    }
-};
+    };
+
+}
 
 knowledge();
 
